@@ -15,3 +15,6 @@ contact <- factor(c("UNKNOWN", "TELEPHONE", "CELLULAR"))
 month <- factor (c("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"), levels = c("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"), ordered = TRUE)
 day_of_week <- factor(c("MON", "TUE", "WED", "THU", "FRI"), levels = c("MON", "TUE", "WED", "THU", "FRI"), ordered = TRUE)
 poutcome <- factor(c("NONEXISTENT", "FAILURE", "SUCCESS"))
+
+str(balance)
+summary(balance)
